@@ -5,22 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0194d7d-22b6-4aa1-8f55-17d1cb901487" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GratuityCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GratuityRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/AirCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BikeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/AirConditionerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AverageScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AverageScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactorialCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeartRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Watch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/Nonesence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CarApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DigitalClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FactorialCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/HeartRatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TackyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/WatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tdd/Mp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/Mp3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BuildingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BuildingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TelevisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TelevisionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/mp3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/mp3Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,26 +58,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Download Shared Index&quot;: &quot;Shared indexes available&quot;,
+    &quot;Notification.DoNotAsk-Download Shared Index&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -81,52 +97,51 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BikeTest.GearFourTest">
-    <configuration name="BikeTest.GearFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CarApplicationTest">
+    <configuration name="ArrowPic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrowPic" />
       <module name="javaProjects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BikeTest" />
-      <option name="METHOD_NAME" value="GearFourTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.GearOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Nonesence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tdd.Nonesence" />
       <module name="javaProjects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BikeTest" />
-      <option name="METHOD_NAME" value="GearOneTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.GearThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BikeTest" />
-      <option name="METHOD_NAME" value="GearThreeTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CarApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.GearTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarApplicationTest.GearTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BikeTest" />
+      <option name="MAIN_CLASS_NAME" value="CarApplicationTest" />
       <option name="METHOD_NAME" value="GearTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.canBikeBeAcceleratedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialCalculatorTest.calculateFactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BikeTest" />
-      <option name="METHOD_NAME" value="canBikeBeAcceleratedTest" />
+      <option name="MAIN_CLASS_NAME" value="FactorialCalculatorTest" />
+      <option name="METHOD_NAME" value="calculateFactorialTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BikeTest.GearFourTest" />
-        <item itemvalue="JUnit.BikeTest.GearThreeTest" />
-        <item itemvalue="JUnit.BikeTest.GearTwoTest" />
-        <item itemvalue="JUnit.BikeTest.GearOneTest" />
-        <item itemvalue="JUnit.BikeTest.canBikeBeAcceleratedTest" />
+        <item itemvalue="JUnit.CarApplicationTest" />
+        <item itemvalue="JUnit.CarApplicationTest.GearTwoTest" />
+        <item itemvalue="Application.Nonesence" />
+        <item itemvalue="JUnit.FactorialCalculatorTest.calculateFactorialTest" />
+        <item itemvalue="Application.ArrowPic" />
       </list>
     </recent_temporary>
   </component>
@@ -151,11 +166,32 @@
       <option name="presentableId" value="Default" />
       <updated>1686223574984</updated>
       <workItem from="1686223576548" duration="27074000" />
-      <workItem from="1686293427498" duration="29485000" />
+      <workItem from="1686293427498" duration="37962000" />
+      <workItem from="1686567682107" duration="13594000" />
+      <workItem from="1686643794634" duration="12795000" />
+      <workItem from="1686904418140" duration="16387000" />
+      <workItem from="1687098925018" duration="10136000" />
+      <workItem from="1687263881002" duration="1619000" />
+      <workItem from="1687421563576" duration="111000" />
+      <workItem from="1687434764469" duration="5669000" />
+      <workItem from="1687471866618" duration="7999000" />
+      <workItem from="1687783712063" duration="1372000" />
+      <workItem from="1687816709399" duration="1075000" />
+      <workItem from="1687819067500" duration="1805000" />
+      <workItem from="1687844248464" duration="6089000" />
+      <workItem from="1688209434354" duration="515000" />
+      <workItem from="1688283753924" duration="863000" />
+      <workItem from="1688371409018" duration="35000" />
+      <workItem from="1688380992299" duration="13361000" />
+      <workItem from="1688449612894" duration="1472000" />
+      <workItem from="1688544310195" duration="918000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

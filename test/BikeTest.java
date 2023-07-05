@@ -4,6 +4,7 @@ import tdd.AirCondition;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BikeTest {
+
     @Test
     public void ifBikeIsOnTest() {
         Bike ducatti = new Bike();
@@ -34,15 +35,15 @@ public class BikeTest {
         ducatti.setIsOn(true);
         boolean status = ducatti.getIsOn();
         assertEquals(true, status);
-        ducatti.setAcceleration(15);
+        ducatti.setAcceleration(19);
         int bikeAcceleration = ducatti.getAcceleration();
-        assertEquals(15, bikeAcceleration);
+        assertEquals(19, bikeAcceleration);
 
         ducatti.setGear(1);
 
         ducatti.increaseAcceleration();
         int newBikeAcceleration = ducatti.getAcceleration();
-        assertEquals(16, newBikeAcceleration);
+        assertEquals(20, newBikeAcceleration);
 
     }
 
@@ -52,15 +53,15 @@ public class BikeTest {
         ducatti.setIsOn(true);
         boolean status = ducatti.getIsOn();
         assertEquals(true, status);
-        ducatti.setAcceleration(24);
+        ducatti.setAcceleration(28);
         int bikeAcceleration = ducatti.getAcceleration();
-        assertEquals(24, bikeAcceleration);
+        assertEquals(28, bikeAcceleration);
 
         ducatti.setGear(2);
 
         ducatti.increaseAcceleration();
         int newBikeAcceleration = ducatti.getAcceleration();
-        assertEquals(26, newBikeAcceleration);
+        assertEquals(30, newBikeAcceleration);
 
     }
 
@@ -70,15 +71,15 @@ public class BikeTest {
         ducatti.setIsOn(true);
         boolean status = ducatti.getIsOn();
         assertEquals(true, status);
-        ducatti.setAcceleration(35);
+        ducatti.setAcceleration(37);
         int bikeAcceleration = ducatti.getAcceleration();
-        assertEquals(35, bikeAcceleration);
+        assertEquals(37, bikeAcceleration);
 
         ducatti.setGear(3);
 
         ducatti.increaseAcceleration();
         int newBikeAcceleration = ducatti.getAcceleration();
-        assertEquals(38, newBikeAcceleration);
+        assertEquals(40, newBikeAcceleration);
 
     }
 
@@ -88,16 +89,85 @@ public class BikeTest {
         ducatti.setIsOn(true);
         boolean status = ducatti.getIsOn();
         assertEquals(true, status);
-        ducatti.setAcceleration(44);
+        ducatti.setAcceleration(46);
         int bikeAcceleration = ducatti.getAcceleration();
-        assertEquals(44, bikeAcceleration);
+        assertEquals(46, bikeAcceleration);
 
         ducatti.setGear(4);
 
         ducatti.increaseAcceleration();
         int newBikeAcceleration = ducatti.getAcceleration();
-        assertEquals(48, newBikeAcceleration);
+        assertEquals(50, newBikeAcceleration);
     }
+
+    @Test
+    public void GearOneDecelerationTest() {
+        Bike ducatti = new Bike();
+        ducatti.setIsOn(true);
+        boolean status = ducatti.getIsOn();
+        assertEquals(true, status);
+        ducatti.setDeceleration(20);
+        int bikeDeceleration = ducatti.getDeceleration();;
+        assertEquals(20, bikeDeceleration);
+
+        ducatti.setGear(1);
+
+        ducatti.decreaseDeceleration();
+        int newBikeDeceleration = ducatti.getDeceleration();
+        assertEquals(19, newBikeDeceleration);
+    }
+
+    @Test
+    public void GearTwoDecelerationTest() {
+        Bike ducatti = new Bike();
+        ducatti.setIsOn(true);
+        boolean status = ducatti.getIsOn();
+        assertEquals(true, status);
+        ducatti.setDeceleration(30);
+        int bikeDeceleration = ducatti.getDeceleration();;
+        assertEquals(30, bikeDeceleration);
+
+        ducatti.setGear(2);
+
+        ducatti.decreaseDeceleration();
+        int newBikeDeceleration = ducatti.getDeceleration();
+        assertEquals(28, newBikeDeceleration);
+    }
+
+    @Test
+    public void GearThreeDecelerationTest() {
+        Bike ducatti = new Bike();
+        ducatti.setIsOn(true);
+        boolean status = ducatti.getIsOn();
+        assertEquals(true, status);
+        ducatti.setDeceleration(40);
+        int bikeDeceleration = ducatti.getDeceleration();;
+        assertEquals(40, bikeDeceleration);
+
+        ducatti.setGear(3);
+
+        ducatti.decreaseDeceleration();
+        int newBikeDeceleration = ducatti.getDeceleration();
+        assertEquals(37, newBikeDeceleration);
+    }
+
+    @Test
+    public void GearFourDecelerationTest() {
+        Bike ducatti = new Bike();
+        ducatti.setIsOn(true);
+        boolean status = ducatti.getIsOn();
+        assertEquals(true, status);
+        ducatti.setDeceleration(50);
+        int bikeDeceleration = ducatti.getDeceleration();;
+        assertEquals(50, bikeDeceleration);
+
+        ducatti.setGear(4);
+
+        ducatti.decreaseDeceleration();
+        int newBikeDeceleration = ducatti.getDeceleration();
+        assertEquals(46, newBikeDeceleration);
+    }
+
 }
 
 

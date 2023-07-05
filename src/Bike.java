@@ -4,6 +4,7 @@ public class Bike {
     private boolean isOn;
     private int acceleration;
     private int gear;
+    private int deceleration;
 
     public boolean getIsOn() {
         return isOn;
@@ -32,6 +33,22 @@ public class Bike {
         if (gear == 4) acceleration += 4;
 
 
+    }
+
+    public void setDeceleration(int deceleration) {
+        this.deceleration = deceleration;
+    }
+
+    public int getDeceleration() {
+        return deceleration;
+
+    }
+
+    public void decreaseDeceleration() {
+        if (gear == 1) deceleration --;
+        if (gear == 2) deceleration -= 2;
+        if (gear == 3) deceleration -=3;
+        if (gear == 4) deceleration -=4;
     }
 }
 
