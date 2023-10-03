@@ -16,7 +16,6 @@ public class DiariesTest {
     @Test
     public void testAdd() {
         diaries.add("user1", "password1");
-
         Diary foundDiary = diaries.findByUsername("user1");
         assertNotNull(foundDiary);
         assertEquals("user1", foundDiary.getUsername());
@@ -26,7 +25,6 @@ public class DiariesTest {
     public void testFindByUsername() {
         diaries.add("user1", "password1");
         diaries.add("user2", "password2");
-
         Diary foundDiary = diaries.findByUsername("user1");
         assertNotNull(foundDiary);
         assertEquals("user1", foundDiary.getUsername());
@@ -38,12 +36,9 @@ public class DiariesTest {
     @Test
     public void testDelete() {
         diaries.add("user1", "password1");
-
         diaries.delete("user1", "password1");
-
         Diary deletedDiary = diaries.findByUsername("user1");
         assertNull(deletedDiary);
-
         diaries.delete("nonexistent", "password");
     }
 }
